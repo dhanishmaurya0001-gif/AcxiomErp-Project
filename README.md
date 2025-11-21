@@ -1,5 +1,5 @@
 # AcxiomErp-Project
-AcxiomERP – Simple and Easy-to-Understand Project Description (in English)
+
 Project Name: AcxiomERP
 Made by: Dhanish Kumar Maurya (MCA Final Year Project)
 Technology Used: ASP.NET Core + C# + SQL Server + Bootstrap + HTML/CSS
@@ -28,9 +28,6 @@ Reports Dashboard
 Shows total number of customers, employees, and reports
 Summary tables for quick view (e.g., how many customers you have)
 
-Admin Settings
-Change company name, logo, or other settings
-Full control over the software
 
 Nice & Modern Design
 Colorful background with icons for Inventory, Finance, HR, Purchase, Manufacturing, CRM
@@ -40,6 +37,9 @@ Easy to click and use (user-friendly)
 
 Future Plan (What I can add later)
 
+Admin Settings
+Change company name, logo, or other settings
+Full control over the software
 Sales & Purchase Billing
 Inventory/Stock Management
 Salary & Attendance (HR)
