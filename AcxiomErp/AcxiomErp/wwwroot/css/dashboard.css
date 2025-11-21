@@ -1,0 +1,63 @@
+﻿ ===== Dashboard Cards ===== 
+.dash-card {
+    border-radius: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+    .dash-card:hover {
+        transform: translateY(-7px) scale(1.05);
+        box-shadow: 0 20px 30px rgba(0,0,0,0.25);
+    }
+
+ Blue gradient for main cards 
+.bg-custom-main {
+    background: linear-gradient(135deg, #54a0ff, #2e86de);
+}
+
+ Red gradient for logout 
+.bg-custom-logout {
+    background: linear-gradient(135deg, #ff6b6b, #ff4757);
+}
+
+ Table Styling 
+table.table {
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+    table.table thead th {
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    table.table tbody tr:hover {
+        background-color: #f2f7ff;
+        transition: background-color 0.3s;
+    }
+
+ Action Buttons Spacing 
+.action-btns a {
+    margin-right: 5px;
+}
+
+ Search Input 
+.input-group input.form-control {
+    box-shadow: none !important;
+}
+
+.input-group .btn {
+    border-radius: 0 10px 10px 0;
+}
+
+ Headings 
+h1.display-4 {
+    color: #0d6efd;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}

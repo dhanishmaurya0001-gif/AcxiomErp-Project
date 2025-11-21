@@ -1,0 +1,20 @@
+﻿/* Full-page background image */
+body {
+    background: url('/images/erp.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card transparency effect */
+.login-card {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    color: white;
+}
+
+    .login-card h2,
+    .login-card p,
+    .login-card label {
+        color: #fff;
+    }

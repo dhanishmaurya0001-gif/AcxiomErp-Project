@@ -1,0 +1,56 @@
+﻿/* Body background & font */
+/*body {
+    background: linear-gradient(to right, #6a11cb, #2575fc);*/ /* Gradient background */
+    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}*/
+body {
+    background-image: url('/images/erp.jpg'); /* Background image set kar raha hai */
+    background-size: cover; /* Image ko full screen cover karne ke liye */
+    background-position: center; /* Image ko center me align karta hai */
+    background-repeat: no-repeat; /* Image repeat nahi hogi */
+    min-height: 100vh; /* Page ki minimum height full viewport */
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif; /* Font style set */
+}
+/* Heading style */
+h1.display-4 {
+    font-weight: 700;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+/* Buttons container */
+.d-flex.justify-content-center {
+    margin-top: 30px;
+}
+
+/* Buttons style */
+.btn-primary, .btn-success {
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+    /* Primary button hover effect */
+    .btn-primary:hover {
+        background-color: #0056b3;
+        transform: scale(1.05);
+    }
+
+    /* Success button hover effect */
+    .btn-success:hover {
+        background-color: #1e7e34;
+        transform: scale(1.05);
+    }
+
+/* Add subtle shadow */
+.btn {
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}

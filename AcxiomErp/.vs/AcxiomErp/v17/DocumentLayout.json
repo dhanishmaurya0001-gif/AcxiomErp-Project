@@ -1,0 +1,784 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\views\\reports\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\views\\reports\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\views\\reports\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\views\\reports\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\views\\reports\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\views\\reports\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\wwwroot\\css\\homeacxi.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\wwwroot\\css\\homeacxi.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\views\\customers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\views\\customers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\views\\customers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\views\\customers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\views\\employees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\views\\employees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\models\\reportsdashboardviewmodel.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\models\\reportsdashboardviewmodel.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\views\\settings\\_settingstable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\views\\settings\\_settingstable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\views\\account\\acxiomhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\views\\account\\acxiomhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\I0RPJKBQ\\DashboardController[1].cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\models\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\models\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\views\\settings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\views\\settings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/localhost_SQLEXPRESS/AcxiomErpDb/True/SqlTable/dbo.Reports.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\views\\settings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\views\\settings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\views\\settings\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\views\\settings\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\wwwroot\\css\\settings.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\wwwroot\\css\\settings.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\migrations\\20251120164320_addreportstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\migrations\\20251120164320_addreportstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\wwwroot\\css\\cindex.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\wwwroot\\css\\cindex.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\wwwroot\\css\\signup.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\wwwroot\\css\\signup.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\migrations\\20251120142526_abc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\migrations\\20251120142526_abc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\migrations\\20251121033621_addsettingstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\migrations\\20251121033621_addsettingstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|c:\\users\\dell\\source\\repos\\acxiomerp\\acxiomerp\\migrations\\20251121040732_axc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808E6999-E573-41C3-B7D4-81781D1F18E6}|AcxiomErp\\AcxiomErp.csproj|solutionrelative:acxiomerp\\migrations\\20251121040732_axc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Reports\\Index.cshtml",
+              "RelativeDocumentMoniker": "AcxiomErp\\Views\\Reports\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Reports\\Index.cshtml",
+              "RelativeToolTip": "AcxiomErp\\Views\\Reports\\Index.cshtml",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAQwHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T14:16:15.986Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "AcxiomErp\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "AcxiomErp\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAD4AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T15:37:02.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AcxiomErp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AcxiomErp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T15:31:22.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Customers\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AcxiomErp\\Views\\Customers\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Customers\\Edit.cshtml",
+              "RelativeToolTip": "AcxiomErp\\Views\\Customers\\Edit.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T14:10:13.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Customers\\Index.cshtml",
+              "RelativeDocumentMoniker": "AcxiomErp\\Views\\Customers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Customers\\Index.cshtml",
+              "RelativeToolTip": "AcxiomErp\\Views\\Customers\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T14:08:44.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Homeacxi.css",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\wwwroot\\css\\Homeacxi.css",
+              "RelativeDocumentMoniker": "AcxiomErp\\wwwroot\\css\\Homeacxi.css",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\wwwroot\\css\\Homeacxi.css",
+              "RelativeToolTip": "AcxiomErp\\wwwroot\\css\\Homeacxi.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-20T15:10:05.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Employees\\Index.cshtml",
+              "RelativeDocumentMoniker": "AcxiomErp\\Views\\Employees\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Employees\\Index.cshtml",
+              "RelativeToolTip": "AcxiomErp\\Views\\Employees\\Index.cshtml",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAQwHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T14:12:03.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Reports\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AcxiomErp\\Views\\Reports\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Reports\\Edit.cshtml",
+              "RelativeToolTip": "AcxiomErp\\Views\\Reports\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T14:17:22.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Reports\\Create.cshtml",
+              "RelativeDocumentMoniker": "AcxiomErp\\Views\\Reports\\Create.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Reports\\Create.cshtml",
+              "RelativeToolTip": "AcxiomErp\\Views\\Reports\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T14:16:49.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Program.cs",
+              "RelativeDocumentMoniker": "AcxiomErp\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Program.cs",
+              "RelativeToolTip": "AcxiomErp\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:00:56.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Customers\\Create.cshtml",
+              "RelativeDocumentMoniker": "AcxiomErp\\Views\\Customers\\Create.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Customers\\Create.cshtml",
+              "RelativeToolTip": "AcxiomErp\\Views\\Customers\\Create.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAQwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T14:09:33.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Employees\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AcxiomErp\\Views\\Employees\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Employees\\Edit.cshtml",
+              "RelativeToolTip": "AcxiomErp\\Views\\Employees\\Edit.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAQwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T14:13:09.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Employees\\Create.cshtml",
+              "RelativeDocumentMoniker": "AcxiomErp\\Views\\Employees\\Create.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Employees\\Create.cshtml",
+              "RelativeToolTip": "AcxiomErp\\Views\\Employees\\Create.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAQwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T14:12:41.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "AcxiomErp\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "AcxiomErp\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:05:32.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "dashboard.css",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\wwwroot\\css\\dashboard.css",
+              "RelativeDocumentMoniker": "AcxiomErp\\wwwroot\\css\\dashboard.css",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\wwwroot\\css\\dashboard.css",
+              "RelativeToolTip": "AcxiomErp\\wwwroot\\css\\dashboard.css",
+              "ViewState": "AgIAACkAAAAAAAAAAAAswDEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-20T15:11:28.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Report.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Models\\Report.cs",
+              "RelativeDocumentMoniker": "AcxiomErp\\Models\\Report.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Models\\Report.cs",
+              "RelativeToolTip": "AcxiomErp\\Models\\Report.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T16:38:50.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "AcxiomErp\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "AcxiomErp\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAPMAAAAAAAAAAAAQwAcBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T14:06:41.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ReportsDashboardViewModel.cs.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Models\\ReportsDashboardViewModel.cs.cs",
+              "RelativeDocumentMoniker": "AcxiomErp\\Models\\ReportsDashboardViewModel.cs.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Models\\ReportsDashboardViewModel.cs.cs",
+              "RelativeToolTip": "AcxiomErp\\Models\\ReportsDashboardViewModel.cs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:13:53.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ReportsController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Controllers\\ReportsController.cs",
+              "RelativeDocumentMoniker": "AcxiomErp\\Controllers\\ReportsController.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Controllers\\ReportsController.cs",
+              "RelativeToolTip": "AcxiomErp\\Controllers\\ReportsController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAxwB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:14:36.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "AcxiomErp\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Models\\Employee.cs",
+              "RelativeToolTip": "AcxiomErp\\Models\\Employee.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T13:56:12.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "AcxiomErp\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Models\\Customer.cs",
+              "RelativeToolTip": "AcxiomErp\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T13:55:40.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "AcxiomErp\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Models\\User.cs",
+              "RelativeToolTip": "AcxiomErp\\Models\\User.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwAoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T13:51:21.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "AcxiomErp\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "AcxiomErp\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T10:15:53.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_SettingsTable.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Settings\\_SettingsTable.cshtml",
+              "RelativeDocumentMoniker": "AcxiomErp\\Views\\Settings\\_SettingsTable.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Settings\\_SettingsTable.cshtml",
+              "RelativeToolTip": "AcxiomErp\\Views\\Settings\\_SettingsTable.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T03:46:46.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "AcxiomErp\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "AcxiomErp\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T13:59:28.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "AcxiomErp\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "AcxiomErp\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:07:25.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "AcxiomErp\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "AcxiomErp\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAQwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:10:57.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "AcxiomErp\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "AcxiomErp\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T14:04:20.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AcxiomHome.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Account\\AcxiomHome.cshtml",
+              "RelativeDocumentMoniker": "AcxiomErp\\Views\\Account\\AcxiomHome.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Account\\AcxiomHome.cshtml",
+              "RelativeToolTip": "AcxiomErp\\Views\\Account\\AcxiomHome.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwAsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T14:48:40.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Signup.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Account\\Signup.cshtml",
+              "RelativeDocumentMoniker": "AcxiomErp\\Views\\Account\\Signup.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Account\\Signup.cshtml",
+              "RelativeToolTip": "AcxiomErp\\Views\\Account\\Signup.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAowCIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T14:03:27.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DashboardController[1].cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\I0RPJKBQ\\DashboardController[1].cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\I0RPJKBQ\\DashboardController[1].cs",
+              "ToolTip": "C:\\Users\\DELL\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\I0RPJKBQ\\DashboardController[1].cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\I0RPJKBQ\\DashboardController[1].cs [Read Only]",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T09:07:26.023Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Setting.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Models\\Setting.cs",
+              "RelativeDocumentMoniker": "AcxiomErp\\Models\\Setting.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Models\\Setting.cs",
+              "RelativeToolTip": "AcxiomErp\\Models\\Setting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:18:05.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Settings\\Create.cshtml",
+              "RelativeDocumentMoniker": "AcxiomErp\\Views\\Settings\\Create.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Settings\\Create.cshtml",
+              "RelativeToolTip": "AcxiomErp\\Views\\Settings\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T14:19:48.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "dbo.Reports.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/localhost_SQLEXPRESS/AcxiomErpDb/True/SqlTable/dbo.Reports.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/localhost_SQLEXPRESS/AcxiomErpDb/True/SqlTable/dbo.Reports.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-21T07:26:30.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "SettingsController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Controllers\\SettingsController.cs",
+              "RelativeDocumentMoniker": "AcxiomErp\\Controllers\\SettingsController.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Controllers\\SettingsController.cs",
+              "RelativeToolTip": "AcxiomErp\\Controllers\\SettingsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:18:35.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Settings\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AcxiomErp\\Views\\Settings\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Settings\\Edit.cshtml",
+              "RelativeToolTip": "AcxiomErp\\Views\\Settings\\Edit.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAowC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T14:20:13.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "settings.css",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\wwwroot\\css\\settings.css",
+              "RelativeDocumentMoniker": "AcxiomErp\\wwwroot\\css\\settings.css",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\wwwroot\\css\\settings.css",
+              "RelativeToolTip": "AcxiomErp\\wwwroot\\css\\settings.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-21T03:39:27.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Settings\\Index.cshtml",
+              "RelativeDocumentMoniker": "AcxiomErp\\Views\\Settings\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Views\\Settings\\Index.cshtml",
+              "RelativeToolTip": "AcxiomErp\\Views\\Settings\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowCsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T14:19:28.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20251121040732_axc.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Migrations\\20251121040732_axc.cs",
+              "RelativeDocumentMoniker": "AcxiomErp\\Migrations\\20251121040732_axc.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Migrations\\20251121040732_axc.cs",
+              "RelativeToolTip": "AcxiomErp\\Migrations\\20251121040732_axc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T04:07:32.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20251121033621_AddSettingsTable.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Migrations\\20251121033621_AddSettingsTable.cs",
+              "RelativeDocumentMoniker": "AcxiomErp\\Migrations\\20251121033621_AddSettingsTable.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Migrations\\20251121033621_AddSettingsTable.cs",
+              "RelativeToolTip": "AcxiomErp\\Migrations\\20251121033621_AddSettingsTable.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T03:36:21.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20251120164320_AddReportsTable.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Migrations\\20251120164320_AddReportsTable.cs",
+              "RelativeDocumentMoniker": "AcxiomErp\\Migrations\\20251120164320_AddReportsTable.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Migrations\\20251120164320_AddReportsTable.cs",
+              "RelativeToolTip": "AcxiomErp\\Migrations\\20251120164320_AddReportsTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T16:43:20.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "AcxiomErp\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "AcxiomErp\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:01:50.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Cindex.css",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\wwwroot\\css\\Cindex.css",
+              "RelativeDocumentMoniker": "AcxiomErp\\wwwroot\\css\\Cindex.css",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\wwwroot\\css\\Cindex.css",
+              "RelativeToolTip": "AcxiomErp\\wwwroot\\css\\Cindex.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-20T15:45:22.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "signup.css",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\wwwroot\\css\\signup.css",
+              "RelativeDocumentMoniker": "AcxiomErp\\wwwroot\\css\\signup.css",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\wwwroot\\css\\signup.css",
+              "RelativeToolTip": "AcxiomErp\\wwwroot\\css\\signup.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-20T15:41:39.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "login.css",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\wwwroot\\css\\login.css",
+              "RelativeDocumentMoniker": "AcxiomErp\\wwwroot\\css\\login.css",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\wwwroot\\css\\login.css",
+              "RelativeToolTip": "AcxiomErp\\wwwroot\\css\\login.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-20T15:39:38.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20251120142526_abc.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Migrations\\20251120142526_abc.cs",
+              "RelativeDocumentMoniker": "AcxiomErp\\Migrations\\20251120142526_abc.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\Migrations\\20251120142526_abc.cs",
+              "RelativeToolTip": "AcxiomErp\\Migrations\\20251120142526_abc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:25:27.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\appsettings.json",
+              "RelativeDocumentMoniker": "AcxiomErp\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AcxiomErp\\AcxiomErp\\appsettings.json",
+              "RelativeToolTip": "AcxiomErp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-20T14:00:24.909Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

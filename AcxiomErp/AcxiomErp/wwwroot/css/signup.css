@@ -1,0 +1,69 @@
+﻿/* Full-page background image */
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('/images/erp.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Signup card (Glassmorphism effect) */
+.signup-card {
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(10px);
+    border-radius: 18px;
+    padding: 40px;
+    width: 400px;
+    color: white;
+    transition: 0.3s ease;
+}
+
+    /* Hover effect */
+    .signup-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+    }
+
+/* Input fields */
+.form-control-lg {
+    height: 50px;
+    font-size: 16px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.3) !important;
+    color: white !important;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+    /* Input placeholder text */
+    .form-control-lg::placeholder {
+        color: #ffffff;
+        opacity: 0.8;
+    }
+
+    /* Fix input text visibility */
+    .form-control-lg:focus {
+        background: rgba(255, 255, 255, 0.5) !important;
+        color: #000 !important;
+    }
+
+/* Signup button */
+.btn-success {
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+    /* Button hover animation */
+    .btn-success:hover {
+        transform: scale(1.05);
+        background-color: #1e7e34;
+    }
+
+/* Link color fix */
+a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }

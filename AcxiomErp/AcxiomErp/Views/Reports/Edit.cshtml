@@ -1,0 +1,14 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model AcxiomErp.Models.Report
+<h2>Edit Report</h2>
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+    <input asp-for="Title" placeholder="Title" /><br />
+    <textarea asp-for="Description" placeholder="Description"></textarea><br />
+    <input asp-for="CreatedDate" type="date" /><br />
+    <button type="submit">Update Report</button>
+</form>

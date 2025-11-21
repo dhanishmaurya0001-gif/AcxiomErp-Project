@@ -1,0 +1,33 @@
+﻿@model IEnumerable<AcxiomErp.Models.Customer>
+
+<link rel="stylesheet" href="~/css/Cindex.css" />
+
+<h2>Customers</h2>
+
+<a asp-action="Create" class="add-btn">+ Add New Customer</a>
+
+<div class="table-container">
+    <table class="custom-table">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Address</th>
+            <th>Actions</th>
+        </tr>
+
+        @foreach (var c in Model)
+        {
+            <tr>
+                <td>@c.Name</td>
+                <td>@c.Email</td>
+                <td>@c.Phone</td>
+                <td>@c.Address</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@c.Id" class="action-link">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@c.Id" class="action-link">Delete</a>
+                </td>
+            </tr>
+        }
+    </table>
+</div>

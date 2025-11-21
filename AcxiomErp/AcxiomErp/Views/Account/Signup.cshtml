@@ -1,0 +1,39 @@
+﻿@model AcxiomErp.Models.User
+@{
+    ViewData["Title"] = "Signup";
+}
+<link rel="stylesheet" href="~/css/signup.css" />
+<div class="container d-flex justify-content-center align-items-center" style="height:100vh;">
+    <div class="card shadow-lg p-4 signup-card animate__animated animate__fadeInDown">
+        <h2 class="text-center mb-4">Signup</h2>
+
+        <form asp-action="Signup" method="post">
+            @Html.AntiForgeryToken()
+
+            <div class="mb-3">
+                <input asp-for="FullName" class="form-control form-control-lg" placeholder="Full Name" required />
+            </div>
+
+            <div class="mb-3">
+                <input asp-for="Email" type="email" class="form-control form-control-lg" placeholder="Email" required />
+            </div>
+
+            <div class="mb-3">
+                <input asp-for="Username" class="form-control form-control-lg" placeholder="Username" required />
+            </div>
+
+            <div class="mb-3">
+                <input asp-for="Password" type="password" class="form-control form-control-lg" placeholder="Password" required />
+            </div>
+
+            <button type="submit" class="btn btn-success btn-lg w-100">Signup</button>
+        </form>
+
+        <p class="text-center mt-3">
+            Already have account? <a asp-action="Login">Login</a>
+        </p>
+    </div>
+</div>
+
+<!-- Animate.css CDN for animation -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />

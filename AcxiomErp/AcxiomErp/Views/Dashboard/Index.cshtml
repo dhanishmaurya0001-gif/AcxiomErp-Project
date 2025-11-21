@@ -1,0 +1,263 @@
+﻿@model AcxiomErp.Models.ReportsDashboardViewModel
+@using Microsoft.Extensions.Primitives
+
+@{
+    ViewData["Title"] = "CRM Dashboard";
+    string search = "";
+    if (Context.Request.Query.TryGetValue("search", out var searchValue))
+    {
+        search = searchValue.FirstOrDefault() ?? "";
+    }
+}
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+
+<style>
+    /* ===== Background ===== */
+    body {
+        background-image: url('/images/erp.jpg'); /* Background image */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', Arial, sans-serif;
+    }
+
+    /* ===== Dashboard Cards ===== */
+    .dash-card {
+        border-radius: 15px;
+        transition: transform 0.3s, box-shadow 0.3s;
+        color: white;
+        font-weight: 600;
+        text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+        text-align: center;
+        padding: 2rem 1rem;
+        backdrop-filter: blur(8px); /* For transparent blur effect */
+        border: 1px solid rgba(255,255,255,0.3);
+    }
+
+        .dash-card:hover {
+            transform: translateY(-7px) scale(1.05);
+            box-shadow: 0 20px 30px rgba(0,0,0,0.25);
+        }
+
+    /* Transparent cards */
+    .bg-custom-main {
+        background: rgba(0, 123, 255, 0.5); /* semi-transparent blue */
+    }
+
+    /* Logout red card */
+    .bg-custom-logout {
+        background: linear-gradient(135deg, #ff6b6b, #ff4757);
+    }
+
+    /* Tables */
+    table.table {
+        border-radius: 12px;
+        overflow: hidden;
+        background-color: rgba(255,255,255,0.9);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+        table.table thead th {
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        table.table tbody tr:hover {
+            background-color: #f2f7ff;
+            transition: background-color 0.3s;
+        }
+
+    /* Action buttons */
+    .action-btns a {
+        margin-right: 5px;
+    }
+
+    /* Search input */
+    .input-group input.form-control {
+        box-shadow: none !important;
+        border-radius: 10px 0 0 10px;
+    }
+
+    .input-group .btn {
+        border-radius: 0 10px 10px 0;
+    }
+
+    /* Heading */
+    h1.display-4 {
+        color: #0d6efd;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    }
+</style>
+
+<div class="container mt-5">
+
+    <h1 class="text-center mb-4 display-4 fw-bold">CRM Dashboard</h1>
+
+    <!-- Search Bar -->
+    <form method="get" asp-action="Index" class="mb-5">
+        <div class="input-group input-group-lg shadow-sm rounded">
+            <input type="text" name="search" class="form-control border-0" placeholder="Search customers, employees, reports..." value="@search" />
+            <button class="btn btn-primary px-4" type="submit">Search</button>
+        </div>
+    </form>
+
+    <!-- Search Results -->
+    @if (!string.IsNullOrEmpty(search))
+    {
+        <h3 class="mb-3">Search Results for "<span class="text-primary">@search</span>"</h3>
+
+        <!-- Customers Table -->
+        @if (Model.Customers != null && Model.Customers.Any())
+        {
+            <h5 class="mt-4">Customers</h5>
+            <table class="table table-hover align-middle rounded overflow-hidden">
+                <thead class="table-primary text-white">
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Address</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var c in Model.Customers)
+                    {
+                        <tr>
+                            <td>@c.Name</td>
+                            <td>@c.Email</td>
+                            <td>@c.Phone</td>
+                            <td>@c.Address</td>
+                            <td class="action-btns">
+                                <a asp-controller="Customers" asp-action="Edit" asp-route-id="@c.Id" class="btn btn-sm btn-warning">Edit</a>
+                                <a asp-controller="Customers" asp-action="Details" asp-route-id="@c.Id" class="btn btn-sm btn-info">View</a>
+                                <a asp-controller="Customers" asp-action="Delete" asp-route-id="@c.Id" class="btn btn-sm btn-danger">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+
+        <!-- Employees Table -->
+        @if (Model.Employees != null && Model.Employees.Any())
+        {
+            <h5 class="mt-4">Employees</h5>
+            <table class="table table-hover align-middle rounded overflow-hidden">
+                <thead class="table-success text-white">
+                    <tr>
+                        <th>Name</th>
+                        <th>Designation</th>
+                        <th>Email</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var e in Model.Employees)
+                    {
+                        <tr>
+                            <td>@e.Name</td>
+                            <td>@e.Designation</td>
+                            <td>@e.Email</td>
+                            <td class="action-btns">
+                                <a asp-controller="Employees" asp-action="Edit" asp-route-id="@e.Id" class="btn btn-sm btn-warning">Edit</a>
+                                <a asp-controller="Employees" asp-action="Details" asp-route-id="@e.Id" class="btn btn-sm btn-info">View</a>
+                                <a asp-controller="Employees" asp-action="Delete" asp-route-id="@e.Id" class="btn btn-sm btn-danger">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+
+        <!-- Reports Table -->
+        @if (Model.Reports != null && Model.Reports.Any())
+        {
+            <h5 class="mt-4">Reports</h5>
+            <table class="table table-hover align-middle rounded overflow-hidden">
+                <thead class="table-warning text-white">
+                    <tr>
+                        <th>Title</th>
+                        <th>Description</th>
+                        <th>Created Date</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var r in Model.Reports)
+                    {
+                        <tr>
+                            <td>@r.Title</td>
+                            <td>@r.Description</td>
+                            <td>@r.CreatedDate.ToString("yyyy-MM-dd")</td>
+                            <td class="action-btns">
+                                <a asp-controller="Reports" asp-action="Edit" asp-route-id="@r.Id" class="btn btn-sm btn-warning">Edit</a>
+                                <a asp-controller="Reports" asp-action="Details" asp-route-id="@r.Id" class="btn btn-sm btn-info">View</a>
+                                <a asp-controller="Reports" asp-action="Delete" asp-route-id="@r.Id" class="btn btn-sm btn-danger">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+
+        <!-- No results -->
+        @if ((Model.Customers == null || !Model.Customers.Any()) &&
+            (Model.Employees == null || !Model.Employees.Any()) &&
+            (Model.Reports == null || !Model.Reports.Any()))
+        {
+            <div class="alert alert-warning mt-3">No results found for "@search".</div>
+        }
+    }
+
+    <!-- Dashboard Cards -->
+    <div class="row justify-content-center g-4 mt-5">
+
+        <div class="col-md-3">
+            <a asp-controller="Customers" asp-action="Index" class="text-decoration-none">
+                <div class="card dash-card bg-custom-main">
+                    <h3>Customers</h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-3">
+            <a asp-controller="Employees" asp-action="Index" class="text-decoration-none">
+                <div class="card dash-card bg-custom-main">
+                    <h3>Employees</h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-3">
+            <a asp-controller="Reports" asp-action="Index" class="text-decoration-none">
+                <div class="card dash-card bg-custom-main">
+                    <h3>Reports</h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-3">
+            <a asp-controller="Settings" asp-action="Index" class="text-decoration-none">
+                <div class="card dash-card bg-custom-main">
+                    <h3>Settings</h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-3">
+            <a asp-controller="Account" asp-action="Logout" class="text-decoration-none">
+                <div class="card dash-card bg-custom-logout">
+                    <h3>Logout</h3>
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,17 @@
+﻿@model AcxiomErp.Models.Report
+
+<h2>Create Report</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label>Title</label>
+        <input asp-for="Title" class="form-control" required />
+    </div>
+
+    <div class="form-group mt-3">
+        <label>Description</label>
+        <textarea asp-for="Description" class="form-control" required></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-success mt-3">Save</button>
+</form>

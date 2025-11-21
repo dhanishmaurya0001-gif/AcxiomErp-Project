@@ -1,0 +1,146 @@
+﻿@model AcxiomErp.Models.ReportsDashboardViewModel
+@{
+    ViewData["Title"] = "Reports Dashboard";
+}
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="~/css/reports.css" />
+
+<div class="container mt-5">
+    <h2 class="text-center mb-5 fw-bold text-primary">📊 Reports Dashboard</h2>
+
+    <!-- Summary Cards Row (Centered) -->
+    <div class="d-flex justify-content-center gap-4 flex-wrap mb-5">
+        <div class="summary-card bg-primary text-white shadow-lg">
+            <h5 class="fw-semibold">Total Customers</h5>
+            <h2>@Model.TotalCustomers</h2>
+        </div>
+        <div class="summary-card bg-success text-white shadow-lg">
+            <h5 class="fw-semibold">Total Employees</h5>
+            <h2>@Model.TotalEmployees</h2>
+        </div>
+    </div>
+
+    <!-- Customers Table -->
+    <h3 class="mt-5 mb-3 text-secondary fw-bold">🧑‍🤝‍🧑 Customers Summary</h3>
+    <div class="table-responsive shadow rounded-4 overflow-hidden mb-5">
+        <table class="table table-hover align-middle text-center">
+            <thead class="table-primary">
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var c in Model.Customers)
+                {
+                    <tr>
+                        <td>@c.Name</td>
+                        <td>@c.Email</td>
+                        <td>@c.Phone</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Employees Table -->
+    <h3 class="mt-5 mb-3 text-secondary fw-bold">👨‍💼 Employees Summary</h3>
+    <div class="table-responsive shadow rounded-4 overflow-hidden mb-5">
+        <table class="table table-hover align-middle text-center">
+            <thead class="table-success">
+                <tr>
+                    <th>Name</th>
+                    <th>Position</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var e in Model.Employees)
+                {
+                    <tr>
+                        <td>@e.Name</td>
+                        <td>@e.Designation</td>
+                        <td>@e.Email</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Reports Table -->
+    <h3 class="mt-5 mb-3 text-secondary fw-bold">📌 Reports Summary</h3>
+    <div class="table-responsive shadow rounded-4 overflow-hidden mb-5">
+        <table class="table table-hover align-middle text-center">
+            <thead class="table-warning">
+                <tr>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Created Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var r in Model.Reports)
+                {
+                    <tr>
+                        <td>@r.Title</td>
+                        <td>@r.Description</td>
+                        <td>@r.CreatedDate.ToString("yyyy-MM-dd")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<style>
+    /* Summary Cards */
+    .summary-card {
+        width: 220px;
+        padding: 2rem 1rem;
+        border-radius: 1rem;
+        text-align: center;
+        transition: transform 0.3s ease;
+    }
+
+    body {
+        background-image: url('/images/erp.jpg'); /* Background image set kar raha hai */
+        background-size: cover; /* Image ko full screen cover karne ke liye */
+        background-position: center; /* Image ko center me align karta hai */
+        background-repeat: no-repeat; /* Image repeat nahi hogi */
+        min-height: 100vh; /* Page ki minimum height full viewport */
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', Arial, sans-serif; /* Font style set */
+    }
+
+
+        .summary-card h2 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-top: 0.5rem;
+        }
+
+        .summary-card:hover {
+            transform: translateY(-5px);
+        }
+
+    /* Table Hover Effect */
+    table.table-hover tbody tr:hover {
+        background-color: #f0f8ff;
+        transform: scale(1.02);
+        transition: all 0.2s ease-in-out;
+    }
+
+    /* Responsive Table Scroll */
+    .table-responsive {
+        max-height: 400px;
+        overflow-y: auto;
+    }
+
+    /* Rounded Table Headers */
+    thead th {
+        border-radius: 0.5rem 0.5rem 0 0;
+    }
+</style>
