@@ -1,9 +1,9 @@
-﻿body {
+body {
     background: #f7f9fc;
 }
 
 body {
-    background-image: url('/images/erp.jpg'); /* Background image set kar raha hai */
+    background-image: url('/Images/erp.jpg'); /* Background image set kar raha hai */
     background-size: cover; /* Image ko full screen cover karne ke liye */
     background-position: center; /* Image ko center me align karta hai */
     background-repeat: no-repeat; /* Image repeat nahi hogi */

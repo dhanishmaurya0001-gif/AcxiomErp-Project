@@ -1,4 +1,4 @@
-﻿@model IEnumerable<AcxiomErp.Models.Customer>
+@model IEnumerable<AcxiomErp.Models.Customer>
 
 <link rel="stylesheet" href="~/css/Cindex.css" />
 
@@ -25,7 +25,7 @@
                 <td>@c.Address</td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@c.Id" class="action-link">Edit</a>
-                    <a asp-action="Delete" asp-route-id="@c.Id" class="action-link">Delete</a>
+                    <form asp-action="Delete" asp-route-id="@c.Id"  method="post" style="display:inline"><button type="submit" class="action-link">Delete</button></form>
                 </td>
             </tr>
         }

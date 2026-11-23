@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using AcxiomErp.Data;
 using AcxiomErp.Models;
 using System.Linq;
@@ -33,7 +33,7 @@ namespace AcxiomErp.Controllers
         public IActionResult Edit(int id)
         {
             var customer = _context.Customers.Find(id);
-            return View(customer);
+            return customer == null ? NotFound() : View(customer);
         }
 
         [HttpPost]
@@ -48,9 +48,11 @@ namespace AcxiomErp.Controllers
             return View(model);
         }
 
+        [HttpPost]
         public IActionResult Delete(int id)
         {
             var customer = _context.Customers.Find(id);
+            if (customer == null) return NotFound();
             _context.Customers.Remove(customer);
             _context.SaveChanges();
             return RedirectToAction("Index");

@@ -1,6 +1,6 @@
-﻿/* Full-page background image */
+/* Full-page background image */
 body {
-    background: url('/images/erp.jpg') no-repeat center center fixed;
+    background: url('/Images/erp.jpg') no-repeat center center fixed;
     background-size: cover;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

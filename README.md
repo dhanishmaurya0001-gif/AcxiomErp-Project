@@ -1,51 +1,48 @@
-# AcxiomErp-Project
+# Acxiom ERP - Interactive Portfolio Demo
 
-Project Name: AcxiomERP
-Made by: Dhanish Kumar Maurya (MCA Final Year Project)
-Technology Used: ASP.NET Core + C# + SQL Server + Bootstrap + HTML/CSS
-What is AcxiomERP?
-AcxiomERP is a complete business management web application (just like the software big companies use — Tally, SAP, Zoho, etc.), but I built it from scratch as my MCA major project.
-It helps small and medium companies run their entire business from one single website — no need to use Excel or many different apps.
-What can this software do? (Main Features)
+An ASP.NET Core MVC business-management project by Dhanish Kumar Maurya. The working demonstration includes account login, a customer register, employee records, report records, a searchable dashboard, and editable settings records.
 
-Login & Signup
-New users can create an account (Signup)
-Safe and secure login system
+## Try the demonstration
 
-Beautiful Dashboard
-After login, you see a clean home page with quick buttons for Customers, Employees, Reports, Settings, etc.
+The hosted demo provides an **Open demo workspace** button on the landing page. It signs into a deliberately public, fictional demo account. Manual login is also available:
 
-Customer Management (CRM)
-Add new customers
-See full list of customers with Name, Email, Phone, Address
-Edit or delete any customer
+- Username: `demo.admin`
+- Password: `Demo@Erp2026!`
 
-Employee Management
-Add employees (like yourself – Software Engineer)
-See all employee details in one place
+The root Dockerfile and `render.yaml` prepare a Render **Free** web service. The final hosted URL is shown in the repository Website field after deployment. No SQL Server hosting account is needed for the demo: setting `DEMO_MODE=true` uses an isolated SQLite database and seeds three fictional customers, three employees, a sample report, and settings.
 
-Reports Dashboard
-Shows total number of customers, employees, and reports
-Summary tables for quick view (e.g., how many customers you have)
+Changes are shared between visitors and reset when the free host restarts or redeploys. Do not enter personal information. The demo does not process payments or send notifications.
 
+## Run locally
 
-Nice & Modern Design
-Colorful background with icons for Inventory, Finance, HR, Purchase, Manufacturing, CRM
-Works perfectly on laptop and big screens
-Easy to click and use (user-friendly)
+Install .NET SDK 8, then from the repository root in PowerShell:
 
+```powershell
+$env:DEMO_MODE='true'
+dotnet run --project AcxiomErp/AcxiomErp/AcxiomErp.csproj --no-launch-profile --urls http://127.0.0.1:18511
+```
 
-Future Plan (What I can add later)
+Open `http://127.0.0.1:18511`. Demo SQLite data stays in the application's working directory between local starts; the hosted container is ephemeral.
 
-Admin Settings
-Change company name, logo, or other settings
-Full control over the software
-Sales & Purchase Billing
-Inventory/Stock Management
-Salary & Attendance (HR)
-Profit-Loss Reports
-GST Invoices
-Mobile app support
+The original SQL Server path remains available when `DEMO_MODE` is absent or false. Configure `ConnectionStrings__DefaultConnection` for your own SQL Server and apply the existing EF migrations as appropriate to that database. Do not import demonstration data over a real database.
 
+## Technology
 
+C#, ASP.NET Core MVC / .NET 8, Entity Framework Core, SQL Server for normal configuration, SQLite for the opt-in demo, Razor, Bootstrap, HTML/CSS, and Docker.
 
+## Demonstration scope
+
+- Public landing page and one-click demo entry; normal username/password login also works.
+- Customer and employee create, list, edit and delete operations.
+- Report create, edit, delete and dashboard summaries.
+- Settings records grouped by category.
+- Session guard on dashboard and business-controller routes; protected POST forms use anti-forgery validation.
+- Newly created passwords are hashed. Existing plaintext records can be upgraded on successful login.
+
+Settings such as module switches are stored records; they are not a complete feature-control or two-factor authentication implementation. Sales/purchase accounting, inventory, payroll automation and GST invoices remain future work. This educational demo is not a production ERP certification.
+
+## Verification
+
+The .NET build passed. Local HTTP checks passed for demo/password login, protected-page redirect, all main pages, customer/employee/report/settings create-edit-delete workflows, case-sensitive image paths and rejection of GET deletion. Each temporary test record was removed after verification.
+
+The Docker context excludes the repository's old generated `bin`/`obj` files, local SQLite data and environment files. Free hosting can sleep while idle and demo changes do not persist across host restarts.

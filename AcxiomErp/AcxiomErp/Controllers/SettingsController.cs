@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using AcxiomErp.Data;
 using AcxiomErp.Models;
 using System.Linq;
@@ -86,6 +86,7 @@ namespace AcxiomErp.Controllers
         // =============================
         // 6️⃣ DELETE
         // =============================
+        [HttpPost]
         public IActionResult Delete(int id)
         {
             var setting = _context.Settings.Find(id);
@@ -102,6 +103,7 @@ namespace AcxiomErp.Controllers
         // =====================================================
         // 7️⃣ OPTIONAL → ADD DEFAULT ERP SETTINGS AUTOMATICALLY
         // =====================================================
+        [HttpPost]
         public IActionResult LoadDefault()
         {
             if (!_context.Settings.Any())

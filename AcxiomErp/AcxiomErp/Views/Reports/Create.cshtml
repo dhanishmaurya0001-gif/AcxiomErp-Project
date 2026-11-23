@@ -1,8 +1,8 @@
-﻿@model AcxiomErp.Models.Report
+@model AcxiomErp.Models.Report
 
 <h2>Create Report</h2>
 
-<form method="post">
+<form asp-action="Create" method="post">
     <div class="form-group">
         <label>Title</label>
         <input asp-for="Title" class="form-control" required />

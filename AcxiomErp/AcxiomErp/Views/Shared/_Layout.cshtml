@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -9,6 +9,15 @@
     <link rel="stylesheet" href="~/AcxiomErp.styles.css" asp-append-version="true" />
 </head>
 <body>
+    @if (Context.RequestServices.GetRequiredService<IConfiguration>().GetValue<bool>("DEMO_MODE"))
+    {
+        <div style="padding:12px;background:#fff3cd;color:#332701;position:relative;z-index:10;text-align:center">
+            <strong>Interactive interview demo.</strong> Fictional records; shared changes reset on hosting restart. Do not enter personal information.
+            <form asp-controller="Account" asp-action="Demo" method="post" style="display:inline-block;margin-left:12px">
+                <button type="submit" class="btn btn-sm btn-primary">Open demo workspace</button>
+            </form>
+        </div>
+    }
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">

@@ -1,4 +1,4 @@
-﻿@model AcxiomErp.Models.ReportsDashboardViewModel
+@model AcxiomErp.Models.ReportsDashboardViewModel
 @using Microsoft.Extensions.Primitives
 
 @{
@@ -15,7 +15,7 @@
 <style>
     /* ===== Background ===== */
     body {
-        background-image: url('/images/erp.jpg'); /* Background image */
+        background-image: url('/Images/erp.jpg'); /* Background image */
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -135,8 +135,8 @@
                             <td>@c.Address</td>
                             <td class="action-btns">
                                 <a asp-controller="Customers" asp-action="Edit" asp-route-id="@c.Id" class="btn btn-sm btn-warning">Edit</a>
-                                <a asp-controller="Customers" asp-action="Details" asp-route-id="@c.Id" class="btn btn-sm btn-info">View</a>
-                                <a asp-controller="Customers" asp-action="Delete" asp-route-id="@c.Id" class="btn btn-sm btn-danger">Delete</a>
+                                <a asp-controller="Customers" asp-action="Edit" asp-route-id="@c.Id" class="btn btn-sm btn-info">View / Edit</a>
+                                <form asp-controller="Customers" asp-action="Delete" asp-route-id="@c.Id"  method="post" style="display:inline"><button type="submit" class="btn btn-sm btn-danger">Delete</button></form>
                             </td>
                         </tr>
                     }
@@ -166,8 +166,8 @@
                             <td>@e.Email</td>
                             <td class="action-btns">
                                 <a asp-controller="Employees" asp-action="Edit" asp-route-id="@e.Id" class="btn btn-sm btn-warning">Edit</a>
-                                <a asp-controller="Employees" asp-action="Details" asp-route-id="@e.Id" class="btn btn-sm btn-info">View</a>
-                                <a asp-controller="Employees" asp-action="Delete" asp-route-id="@e.Id" class="btn btn-sm btn-danger">Delete</a>
+                                <a asp-controller="Employees" asp-action="Edit" asp-route-id="@e.Id" class="btn btn-sm btn-info">View / Edit</a>
+                                <form asp-controller="Employees" asp-action="Delete" asp-route-id="@e.Id"  method="post" style="display:inline"><button type="submit" class="btn btn-sm btn-danger">Delete</button></form>
                             </td>
                         </tr>
                     }
@@ -197,8 +197,8 @@
                             <td>@r.CreatedDate.ToString("yyyy-MM-dd")</td>
                             <td class="action-btns">
                                 <a asp-controller="Reports" asp-action="Edit" asp-route-id="@r.Id" class="btn btn-sm btn-warning">Edit</a>
-                                <a asp-controller="Reports" asp-action="Details" asp-route-id="@r.Id" class="btn btn-sm btn-info">View</a>
-                                <a asp-controller="Reports" asp-action="Delete" asp-route-id="@r.Id" class="btn btn-sm btn-danger">Delete</a>
+                                <a asp-controller="Reports" asp-action="Edit" asp-route-id="@r.Id" class="btn btn-sm btn-info">View / Edit</a>
+                                <form asp-controller="Reports" asp-action="Delete" asp-route-id="@r.Id"  method="post" style="display:inline"><button type="submit" class="btn btn-sm btn-danger">Delete</button></form>
                             </td>
                         </tr>
                     }
