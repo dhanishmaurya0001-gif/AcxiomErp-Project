@@ -4,12 +4,14 @@ An ASP.NET Core MVC business-management project by Dhanish Kumar Maurya. The wor
 
 ## Try the demonstration
 
+**[Open the live Acxiom ERP demo](https://dhanish-acxiom-demo.onrender.com/)**
+
 The hosted demo provides an **Open demo workspace** button on the landing page. It signs into a deliberately public, fictional demo account. Manual login is also available:
 
 - Username: `demo.admin`
 - Password: `Demo@Erp2026!`
 
-The root Dockerfile and `render.yaml` prepare a Render **Free** web service. The final hosted URL is shown in the repository Website field after deployment. No SQL Server hosting account is needed for the demo: setting `DEMO_MODE=true` uses an isolated SQLite database and seeds three fictional customers, three employees, a sample report, and settings.
+The root Dockerfile and `render.yaml` configure the deployed Render **Free** web service. No SQL Server hosting account is needed for the demo: setting `DEMO_MODE=true` uses an isolated SQLite database and seeds three fictional customers, three employees, a sample report, and settings.
 
 Changes are shared between visitors and reset when the free host restarts or redeploys. Do not enter personal information. The demo does not process payments or send notifications.
 
@@ -43,6 +45,6 @@ Settings such as module switches are stored records; they are not a complete fea
 
 ## Verification
 
-The .NET build passed. Local HTTP checks passed for demo/password login, protected-page redirect, all main pages, customer/employee/report/settings create-edit-delete workflows, case-sensitive image paths and rejection of GET deletion. Each temporary test record was removed after verification.
+The .NET build passed. On 23 November 2026, all 24 focused HTTP checks passed on the actual HTTPS deployment: demo/password login, protected-page redirect, all main pages, customer/employee/report/settings create-edit-delete workflows, case-sensitive image paths and rejection of GET deletion. Each temporary test record was removed after verification. These checks are not an exhaustive production acceptance test.
 
 The Docker context excludes the repository's old generated `bin`/`obj` files, local SQLite data and environment files. Free hosting can sleep while idle and demo changes do not persist across host restarts.
